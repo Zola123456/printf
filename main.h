@@ -6,6 +6,7 @@
 #include <stdlib.h>
 
 int _printf(const char *format, ...);
+int print_buf(char *buf, unsigned int nbuf);
 
 
 #endif
