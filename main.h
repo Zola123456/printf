@@ -18,6 +18,8 @@ typedef struct print
 
 int _printf(const char *format, ...);
 int ev_print_func(const char *s, int index);
+int print_str(va_list arguments, char *buf, unsigned int ibuf);
+int print_chr(va_list arguments, char *buf, unsigned int ibuf);
 unsigned int handl_buf(char *buf, char c, unsigned int ibuf);
 int print_buf(char *buf, unsigned int nbuf);
 
